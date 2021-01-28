@@ -28,9 +28,9 @@ class Layout extends React.Component<Dispatchable<Props>, MyState> {
     await this.props.getWebsiteData(this.props.domain);
 
     //This will set defaut city for gaur.city -- set default city from admin
-    if (this.props.state.website.data && this.props.state.website.data.defaultCity) {
-      this.props.updateSetting(this.props.state.setting, ['location', 'subArea'], [this.props.state.website.data.defaultCity, 'All'], false, null);
-    }
+    // if (this.props.state.website.data && this.props.state.website.data.defaultCity) {
+    //   this.props.updateSetting(this.props.state.setting, ['location', 'subArea'], [this.props.state.website.data.defaultCity, 'All'], false, null);
+    // }
     loadLeadForms();
   }
   render() {
@@ -42,17 +42,17 @@ class Layout extends React.Component<Dispatchable<Props>, MyState> {
         }
         {children}
         <Footer />
-        <Fsocial />
+        {/* <Fsocial /> */}
         <ToastContainer />
         <ContactPopup {...this.props} />
         <ScrollTop />
-        {this.state.showHeader &&
+        {/* {this.state.showHeader &&
           <LeadForm1 {...this.props} />
-        }
+        } */}
 
         <Safe.script src="/assets/js/jquery-1.11.1.min.js"></Safe.script>
         <Safe.script src="/assets/js/bootstrap.min.js"></Safe.script>
-        <Safe.script src="/assets/js/crisp.js"></Safe.script>
+        {/* <Safe.script src="/assets/js/crisp.js"></Safe.script> */}
         <Safe.script src="https://chatman-api.dritalconnect.com/ichat.js?key=5fd707d112c890288a29ffd4" id="ichatman"></Safe.script>
         <Safe.script src="https://chatman-api.dritalconnect.com/ipush?key=5fd707d112c890288a29ffd4" id="ipush"></Safe.script>
         {/* <Safe.script src="https://progressier.com/client/script.js?id=8bAkl3u7WiXwjRJagIeq"></Safe.script> */}

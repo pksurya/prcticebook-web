@@ -9,7 +9,7 @@ const Meta: React.SFC<any> = (props) => {
 
     const APP_DEFAULT_SEO: DefaultSeoProps = {
         title: props.title || props.projectName || '',
-        titleTemplate: '%s | Next SEO',
+        titleTemplate: '%s | DritalConnect.com',
         description: 'Description A',
         canonical: 'https://www.canonical.ie/a',
         defaultOpenGraphImageHeight: 1200,

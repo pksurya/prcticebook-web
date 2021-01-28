@@ -416,7 +416,7 @@ export const getBlogJsonLd = (props) => {
           ]}
           datePublished={data.listingDtae}
           dateModified={data.listingDtae}
-          authorName={(data.publisher) ? data.publisher.name : 'Amit Bhati'}
+          authorName={(data.publisher) ? data.publisher.name : 'Prashant Surya'}
           description={data.metaDesc}
         />
       </>
@@ -440,7 +440,7 @@ export const getArticleJsonLd = (props) => {
           ]}
           datePublished={data.listingDtae}
           dateModified={data.listingDtae}
-          authorName={(data.publisher) ? data.publisher.name : 'Amit Bhati'}
+          authorName={(data.publisher) ? data.publisher.name : 'Prashant Surya'}
           publisherName={domain}
           publisherLogo="/assets/images/ps.jpg"
           description={data.metaDesc}
@@ -577,7 +577,7 @@ export const verifyWebsiteCode = (obj) => {
 export const setWebsiteCode = (d) => {
   var code = "w1";
   switch (d) {
-    case 'property.sale': {
+    case 'practicebook.in': {
       code = "w1";
       break;
     }
@@ -705,8 +705,8 @@ Distress Price: ₹ ${priceMap(obj.costDistress || obj.cost)}
 
 For ${props.website.text} Sale & purchase visit website "${host}",
 
-Amit Bhati,
-(+91) 8375924100
+Prashant Surya,
+(+91) 8745891014
 ${(obj.publisher) ? obj.publisher.email : ""}       
 `;
     return encodeURIComponent(msg.trim());

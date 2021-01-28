@@ -11,7 +11,7 @@ const Footer: React.SFC<any> = (props) => {
         <div>
             {props.website && props.website.data &&
                 <>
-                    <section id="footer_end">
+                    {/* <section id="footer_end">
                         <div className="container">
                             <div className="col-md-12">
                                 <div className="disclemar_deta">
@@ -20,7 +20,7 @@ const Footer: React.SFC<any> = (props) => {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
 
                     <div className="main_footer">
                         <footer>
@@ -39,20 +39,20 @@ const Footer: React.SFC<any> = (props) => {
                                             <ul>
                                                 <h4>Partner Sites</h4>
                                                 <li><i className="fa fa-angle-right"></i><a href="https://property.sale/" target="_blank">Property.Sale</a></li>
-                                                <li><i className="fa fa-angle-right"></i><a href="https://property.golf/" target="_blank">Property.Golf</a></li>
                                                 <li><i className="fa fa-angle-right"></i><a href="https://property.rent/" target="_blank">Property.Rent</a></li>
+                                                <li><i className="fa fa-angle-right"></i><a href="https://kothi.forsale/" target="_blank">Kothi.forsale</a></li>
+                                                <li><i className="fa fa-angle-right"></i><a href="https://foodcourt.forsale/" target="_blank">FoodCourt.forsale</a></li>
+                                                {/* <li><i className="fa fa-angle-right"></i><a href="https://property.golf/" target="_blank">Property.Golf</a></li>                                               
                                                 <li><i className="fa fa-angle-right"></i><a href="https://property.work/" target="_blank">Property.Work</a></li>
                                                 <li><i className="fa fa-angle-right"></i><a href="http://shopforsale.in/" target="_blank">ShopForSale.in</a></li>
                                                 <li><i className="fa fa-angle-right"></i><a href="http://preleasedproperty.forsale/" target="_blank">PreLeasedProperty.forsale</a></li>
                                                 <li><i className="fa fa-angle-right"></i><a href="http://2bhkflat.forsale/" target="_blank">2BHKflat.forsale</a></li>
                                                 <li><i className="fa fa-angle-right"></i><a href="http://3bhkflat.forsale/" target="_blank">3BHKflat.forsale</a></li>
                                                 <li><i className="fa fa-angle-right"></i><a href="https://factory.forsale/" target="_blank">Factory.forsale</a></li>
-                                                <li><i className="fa fa-angle-right"></i><a href="https://plots.forsale/" target="_blank">Plots.forsale</a></li>
-                                                <li><i className="fa fa-angle-right"></i><a href="https://kothi.forsale/" target="_blank">Kothi.forsale</a></li>
-                                                <li><i className="fa fa-angle-right"></i><a href="https://foodcourt.forsale/" target="_blank">FoodCourt.forsale</a></li>
+                                                <li><i className="fa fa-angle-right"></i><a href="https://plots.forsale/" target="_blank">Plots.forsale</a></li>                                                                                               
                                                 <li><i className="fa fa-angle-right"></i><a href="https://petrolpump.forsale/" target="_blank">PetrolPump.forsale</a></li>
                                                 <li><i className="fa fa-angle-right"></i><a href="https://gaur.city/" target="_blank">Gaur.City</a></li>
-                                                <li><i className="fa fa-angle-right"></i><a href="https://gaur.yamuna.city/" target="_blank">Gaur.Yamuna.City</a></li>
+                                                <li><i className="fa fa-angle-right"></i><a href="https://gaur.yamuna.city/" target="_blank">Gaur.Yamuna.City</a></li> */}
                                             </ul>
                                         </div>
                                     </div>
@@ -64,13 +64,13 @@ const Footer: React.SFC<any> = (props) => {
                                                     <i className="fa fa-map-marker"></i><span>To get any information contact us with your requirements online.</span>
                                                 </li>
                                                 <li>
-                                                    <a href="tel:+91-8375924100" target="_blank"><i className="fa fa-mobile"></i><span>(+91) 8375924100</span></a>
+                                                    <a href="tel:+91-8745891014" target="_blank"><i className="fa fa-mobile"></i><span>(+91) 8745891014</span></a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://wa.me/+918375924100" target="_blank" ><i className="fa fa-whatsapp"></i><span>(+91) 8375924100</span></a>
+                                                    <a href="https://wa.me/+918745891014" target="_blank" ><i className="fa fa-whatsapp"></i><span>(+91) 8745891014</span></a>
                                                 </li>
                                                 <li>
-                                                    <i className="fa fa-envelope"></i><span>www.property.sale@gmail.com</span>
+                                                    <i className="fa fa-envelope"></i><span>practicebook.in@gmail.com</span>
                                                 </li>
                                             </ul>
                                         </div>

@@ -130,10 +130,10 @@ const PropGrid: React.SFC<any> = (prop) => {
                                         <b className="sigle_tag">Posted On:- {convertISOStringToMonthDay(x.listingDtae) || '-'}</b>
                                         <b className="sigle_tag"><i className="fa fa-eye"></i>{viewsFormat(x.view, 2)}</b></span> */}
 
-                                    <a href={"https://wa.me/+918375924100?text=I am interested in property " + x.code + " => " + getWATemplateOfProperty(x, prop)} className="btn btn-primary btn-sm contact_btn" target="_blank"><i className="icon fa fa-whatsapp fa-white"></i></a>
+                                    <a href={"https://wa.me/+918745891014?text=I am interested in property " + x.code + " => " + getWATemplateOfProperty(x, prop)} className="btn btn-primary btn-sm contact_btn" target="_blank"><i className="icon fa fa-whatsapp fa-white"></i></a>
                                     <Link href={glink.href.property} as={`/${prop.filters.country}/${prop.setting.location}/${prop.filters.subArea}/property/${x.slug}`}><a className="btn btn-primary btn-sm">{viewsFormat(x.view, 2)}&nbsp;<i className="icon fa fa-eye"></i></a></Link>
                                     <a href="#" onClick={() => prop.saveQueryToStore(x.publisher.email)} data-toggle="modal" data-target="#ContactPopup" className="btn btn-primary btn-sm contact_btn"><i className="icon fa fa-envelope"></i></a>
-                                    <a href="tel:+91-8375924100" className="btn btn-primary btn-sm contact_btn ML" target="_blank"><i className="icon fa fa-phone fa-white"></i></a>
+                                    <a href="tel:+91-8745891014" className="btn btn-primary btn-sm contact_btn ML" target="_blank"><i className="icon fa fa-phone fa-white"></i></a>
                                 </div>
                             </div>
                         </div>

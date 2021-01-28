@@ -39,7 +39,7 @@ const Header2: React.SFC<any> = (props) => {
                                             <li className="nav-item">
                                                 <Link href={glink.href.blogs} as={`/blogs`}><a className={(Router.pathname == glink.href.blogs) ? "active nav-link" : "nav-link"}>Blog</a></Link>
                                             </li>
-                                            {props.website.data.project &&
+                                            {/* {props.website.data.project &&
                                                 <li className="nav-item">
                                                     <Link href={glink.href.projects} as={`/${setting.country}/${setting.location}/${setting.subArea}/projects/${setting.propType}`}><a className={(Router.pathname == glink.href.projects) ? "active nav-link" : "nav-link"}>Projects</a></Link>
                                                 </li>
@@ -54,8 +54,8 @@ const Header2: React.SFC<any> = (props) => {
                                             }
                                             <li className="nav-item">
                                                 <Link href={glink.href.contact} as={`/contact`}><a className={(Router.pathname == glink.href.contact) ? "active nav-link" : "nav-link"}>Contact</a></Link>
-                                            </li>
-                                            {auth.data && auth.logined &&
+                                            </li> */}
+                                            {/* {auth.data && auth.logined &&
                                                 <li className="nav-item dropdown" id="open_menu">
                                                     <Link href={glink.href.myProfile} as={`/my-profile`}><a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fa fa-user" aria-hidden="true"></i> {auth.data.user.name} </a></Link>
                                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -67,8 +67,8 @@ const Header2: React.SFC<any> = (props) => {
                                                 // <li className="nav-item">
                                                 //     <Link href={glink.href.myProfile} as={`/my-profile`}><a className="nav-link">{auth.data.user.name}</a></Link>
                                                 // </li>
-                                            }
-                                            {auth.data == null && !auth.logined &&
+                                            } */}
+                                            {/* {auth.data == null && !auth.logined &&
                                                 <>
                                                     <li className="nav-item">
                                                         <a id="loginbtn" className="nav-link login_design" data-toggle="modal" data-target="#login" onClick={props.resetLogin}>Login</a>
@@ -77,7 +77,7 @@ const Header2: React.SFC<any> = (props) => {
                                                         <Link href={glink.href.reg} as={`/registration`}><a className="nav-link login_design">register</a></Link>
                                                     </li>
                                                 </>
-                                            }
+                                            } */}
                                         </ul>
                                         {/* <div id="llist_properties">
                                         <a className="nav-link address_details" href="#" data-toggle="modal" data-target="#cityModal"> <i className="fa fa-map-marker"></i> {getLocationAreaText(setting)}</a>
@@ -91,7 +91,7 @@ const Header2: React.SFC<any> = (props) => {
                                 </nav>
                             </div>
 
-                            <div className="col-md-2 col-sm-2">
+                            {/* <div className="col-md-2 col-sm-2">
                                 {website.data.code != 'w15' && website.data.code != 'w16' &&
                                     <div id="llist_properties">
                                         {props.website.code}
@@ -99,18 +99,18 @@ const Header2: React.SFC<any> = (props) => {
                                         <CitySelectorPopup {...props} />
                                     </div>
                                 }
-                            </div>
+                            </div> */}
 
-                            < div className="col-md-2 col-sm-2">
+                            {/* <div className="col-md-2 col-sm-2">
                                 <div id="list_properties" className="new_list_properties">
                                     <Link href={glink.href.listProp} as={`/post-free-property`}><a className="nav-link">List {props.website.data.listPropTitle}<span>Free</span> </a></Link>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </header>
             }
-            <Login {...props} />
+            {/* <Login {...props} /> */}
             <style jsx>{`
                 .logo-w16{
                     font-size: 22px !important;

@@ -93,10 +93,10 @@ class HotProp extends React.Component<Dispatchable<Props>> {
                                                                     <Link href={glink.href.property} as={`/${filters.country}/${filters.location}/${filters.subArea}/property/${x.slug}`}><a className="see_details">Details</a></Link>
                                                                 </div>
                                                                 <div className="col-2">
-                                                                    <a href="tel:+91-8375924100" className="see_details" target="_blank"><i className="icon fa fa-phone fa-white"></i></a>
+                                                                    <a href="tel:+91-8745891014" className="see_details" target="_blank"><i className="icon fa fa-phone fa-white"></i></a>
                                                                 </div>
                                                                 <div className="col-2">
-                                                                    <a href={"https://wa.me/+918375924100?text=I am interested in property " + x.code + " => " + getWATemplateOfProperty(x, this.props)} className="see_details" target="_blank"><i className="icon fa fa-whatsapp fa-white"></i></a>
+                                                                    <a href={"https://wa.me/+918745891014?text=I am interested in property " + x.code + " => " + getWATemplateOfProperty(x, this.props)} className="see_details" target="_blank"><i className="icon fa fa-whatsapp fa-white"></i></a>
                                                                 </div>
                                                             </div>
                                                         </div>

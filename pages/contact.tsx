@@ -27,11 +27,11 @@ class ContactPage extends React.Component<Dispatchable<Props>> {
                   <ul className="contact-details">
                     <li>
                       {/* <strong>Phone Number:</strong><br /> */}
-                      <i className="fa fa-phone"></i>  <span>(+91) 8375924100</span>
+                      <i className="fa fa-phone"></i>  <span>(+91) 8745891014</span>
                     </li>
                     <li>
                       {/* <strong>Email Address:</strong> */}
-                      <i className="fa fa-envelope"></i>  <span><a href="#">www.property.sale@gmail.com</a></span>
+                      <i className="fa fa-envelope"></i>  <span><a href="#">practicebook.in@gmail.com</a></span>
                     </li>
                     <li>
                       {/* <strong>Website:</strong> */}

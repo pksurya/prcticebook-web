@@ -1,13 +1,13 @@
 export const constant = {
     website:'w9',
-    author: "Amit Bhati",
-    contactNumber: '(+91) 8375924100',
-    email:"www.property.sale@gmail.com",
-    whatsappNumber:8375924100,
+    author: "Prashant Surya",
+    contactNumber: '(+91) 8745891014',
+    email:"info@dritalconnect.com",
+    whatsappNumber:8745891014,
     blogsLimit: 8,
     hotPropLimit: 10,
     sideBarBlogsLimit: 10,
-    appUrl:'https://kothi.forsale',
+    appUrl:'https://practicebook.in',
     baseAPIurl: 'https://api.practicebook.in/',
     error: "Oops!! An error has been occured, please try after some time.",
     contactAckMsg: "Thanks for your query, you will get a call within 24 hrs.",
@@ -91,10 +91,10 @@ export const StatusList =
     2: "Under Construction",
     3: "Nearing Completion"
 }
-export const ContactReceiverName = "Amit Bhati";
+export const ContactReceiverName = "Prashant Surya";
 //export const ContactMailReceiver = "prashant.kr.surya@gmail.com";
-export const ContactMailReceiver = "www.property.sale@gmail.com"//"kapilsharmast@gmail.com";
-export const ContactCallReceiver = "8375924100";
+export const ContactMailReceiver = "practicebook.in@gmail.com"//"kapilsharmast@gmail.com";
+export const ContactCallReceiver = "8745891014";
 export const Disclaimaer_p1 = `All the details displayed on the website are for informational purposes to the viewers/visitors of this
                                 website.
                                 All.Information displayed regarding all properties/real estate projects weather fresh sale or resale,

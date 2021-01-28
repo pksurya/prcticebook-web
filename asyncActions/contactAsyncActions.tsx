@@ -49,7 +49,7 @@ export const sendMessage = (obj: any) => async dispatch => {
 // name: "Prashant "
 // number: 8745891014
 // source: "contactus"
-// to: "www.property.sale@gmail.com"
+// to: "practicebook.in@gmail.com"
 
 
 

@@ -19,9 +19,9 @@ const ContactCard: React.SFC<any> = (props) => {
                         <i className="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;<span><b>{constant.contactNumber}</b></span>
                     </div>
                     <div className="col-md-12 btn-div">
-                        <a href="https://wa.me/+918375924100" className="btns" target="_blank"><i className="fa fa-whatsapp"></i> <span>WhatsApp Us</span></a>
+                        <a href="https://wa.me/+918745891014" className="btns" target="_blank"><i className="fa fa-whatsapp"></i> <span>WhatsApp Us</span></a>
                 &nbsp; &nbsp;
-                <a href="tel:+91-8375924100" className="btns" target="_blank"><i className="fa fa-phone"></i> <span>Call Us</span></a>
+                <a href="tel:+91-8745891014" className="btns" target="_blank"><i className="fa fa-phone"></i> <span>Call Us</span></a>
                     </div>
                 </div>
             </div>

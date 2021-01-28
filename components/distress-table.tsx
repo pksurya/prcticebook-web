@@ -87,9 +87,9 @@ ${txt}
 
 For ${this.props.website.text} Sale visit website "${this.props.domain}",
 
-Amit Bhati,
-(+91) 8375924100
-www.property.sale@gmail.com
+Prashant Surya,
+(+91) 8745891014
+practicebook.in@gmail.com
     `
         return encodeURIComponent(msg.trim());
     }
@@ -174,7 +174,7 @@ www.property.sale@gmail.com
                                                     <td className="text-center action-td">
                                                         <a target="_blank" className="action"
                                                             href={`https://api.whatsapp.com/send?phone=+91${constant.whatsappNumber}&text=I am interested in property ${x.code} => ${getWATemplateOfProperty(x, this.props)}`}><i className="fa fa-whatsapp"></i></a>&nbsp;&nbsp;
-                                                        <a href="tel:+91-8375924100" className="action" target="_blank"><i className="icon fa fa-phone fa-white"></i></a>
+                                                        <a href="tel:+91-8745891014" className="action" target="_blank"><i className="icon fa fa-phone fa-white"></i></a>
                                                     </td>
                                                 }
                                             </tr>

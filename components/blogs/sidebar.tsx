@@ -84,7 +84,7 @@ class BlogSorted extends React.Component<Dispatchable<Props>, SortState> {
                                     {recent && recent.map((x, i) =>
                                         <li key={i}>
                                             <div className="media-left">
-                                                <a><img src={x.profilePic} alt={x.title}></img></a>
+                                                <a><img src={x.profilePic || '/assets/images/ps.jpg'} alt={x.title}></img></a>
                                             </div>
                                             <div className="media-body">
                                                 <Link href="/blog/[slug]" as={`/blog/${x.slug}`}><a onClick={() => this.props.getBlogDetail(x.slug)} className="media-heading">{x.title}</a></Link>
@@ -105,7 +105,7 @@ class BlogSorted extends React.Component<Dispatchable<Props>, SortState> {
                                     {popular && popular.map((x, i) =>
                                         <li key={i}>
                                             <div className="media-left">
-                                                <a href="#"><img src={x.profilePic} alt={x.title}></img></a>
+                                                <a href="#"><img src={x.profilePic || '/assets/images/ps.jpg'} alt={x.title}></img></a>
                                             </div>
                                             <div className="media-body">
                                                 <Link href="/blog/[slug]" as={`/blog/${x.slug}`}><a className="media-heading">{x.title}</a></Link>
@@ -126,7 +126,7 @@ class BlogSorted extends React.Component<Dispatchable<Props>, SortState> {
                                     {blogObj && blogObj.map((x, i) =>
                                         <li key={i}>
                                             <div className="media-left">
-                                                <a href="#"><img src={x.profilePic} alt={x.title}></img></a>
+                                                <a href="#"><img src={x.profilePic || '/assets/images/ps.jpg'} alt={x.title}></img></a>
                                             </div>
                                             <div className="media-body">
                                                 <Link href="/blog/[slug]" as={`/blog/${x.slug}`}><a className="media-heading">{x.title}</a></Link>

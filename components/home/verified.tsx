@@ -8,18 +8,18 @@ const Verified: React.SFC<any> = (props) => {
     const links = [
         { name: "Property for sale", url: "https://property.sale", text: "property.sale" },
         { name: "Property for rent", url: "https://property.rent", text: "property.rent" },
-        { name: "Golf Property for sale", url: "https://property.golf", text: "property.golf" },
-        { name: "Shop for sale", url: "http://shopforsale.in", text: "shopforsale.in" },
-        { name: "Plots for sale", url: "http://plots.forsale/", text: "plots.forsale" },
+        // { name: "Golf Property for sale", url: "https://property.golf", text: "property.golf" },
+        // { name: "Shop for sale", url: "http://shopforsale.in", text: "shopforsale.in" },
+        // { name: "Plots for sale", url: "http://plots.forsale/", text: "plots.forsale" },
         { name: "Kothi for sale", url: "http://kothi.forsale/", text: "kothi.forsale" },
         { name: "Food Court for sale", url: "http://foodcourt.forsale/", text: "foodcourt.forsale" },
-        { name: "Factory for sale", url: "http://factory.forsale/", text: "factory.forsale" },
-        { name: "Distress property for sale", url: "https://distress.property.sale/", text: "distress.property.sale" },
-        { name: "2BHK flats for sale", url: "http://2bhkflat.forsale/", text: "2bhkflat.forsale" },
-        { name: "3BHK flats for sale", url: "http://3bhkflat.forsale/", text: "3bhkflat.forsale" },
-        { name: "Jobs in Real Estate", url: "https://property.work", text: "property.work" },
-        { name: "PetrolPump for sale", url: "https://property.work", text: "petrolpump.forsale" },
-        { name: "PreLeased property for sale", url: "http://preleasedproperty.forsale/", text: "preleasedproperty.forsale" }
+        // { name: "Factory for sale", url: "http://factory.forsale/", text: "factory.forsale" },
+        // { name: "Distress property for sale", url: "https://distress.property.sale/", text: "distress.property.sale" },
+        // { name: "2BHK flats for sale", url: "http://2bhkflat.forsale/", text: "2bhkflat.forsale" },
+        // { name: "3BHK flats for sale", url: "http://3bhkflat.forsale/", text: "3bhkflat.forsale" },
+        // { name: "Jobs in Real Estate", url: "https://property.work", text: "property.work" },
+        // { name: "PetrolPump for sale", url: "https://property.work", text: "petrolpump.forsale" },
+        // { name: "PreLeased property for sale", url: "http://preleasedproperty.forsale/", text: "preleasedproperty.forsale" }
 
     ]
     return (

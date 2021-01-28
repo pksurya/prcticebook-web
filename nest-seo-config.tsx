@@ -2,7 +2,7 @@ import { DefaultSeoProps } from 'next-seo';
 
 const APP_DEFAULT_SEO: DefaultSeoProps = {
   title: 'for sale in Delhi-NCR',
-  titleTemplate: '%s | Next SEO',
+  titleTemplate: '%s | DritalConnect.com',
   description: 'Description A',
   canonical: 'https://www.canonical.ie/a',
   defaultOpenGraphImageHeight: 1200,

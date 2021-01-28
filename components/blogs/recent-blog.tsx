@@ -62,7 +62,7 @@ class RecentBlog extends React.Component<Dispatchable<Props>> {
                                                 <div className="post-info">
                                                     <div className="more_info">
                                                         <div className="right_profile_data">
-                                                            <Link href="/blog/[slug]" as={`/blog/${x.slug}`}><a><img src={x.profilePic || '/assets/images/ps.jpg'} alt={x.title} className="img-responsive"></img></a></Link>
+                                                            <Link href="/blog/[slug]" as={`/blog/${x.slug}`}><a><img src="https://api.dritalconnect.com/uploads/photo-1599803322120..jpg" alt={x.title} className="img-responsive"></img></a></Link>
                                                             <a href="#">{constant.author}</a><br />
                                                             <span>{convertISOStringToMonthDay(x.listingDtae)} - 2 min read</span>
                                                             <a href="#"><b className="text-right bookmark_work"><i className="fa fa-bookmark-o"></i></b></a>

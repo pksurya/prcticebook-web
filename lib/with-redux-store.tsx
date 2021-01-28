@@ -42,7 +42,7 @@ const withReduxStore = (Component: React.ComponentClass<Props>) => {
       //console.log(appContext.ctx.req.headers.host.split('.')[0]);
 
       //let domain = (!!appContext.ctx.req) ? appContext.ctx.req.headers.host : window.location.host;
-      let domain = "property.sale";
+      let domain = "practicebook.in";
       //let domain = "foodcourt.forsale";
       //let domain = "plots.forsale";
       //let domain = "yamunaexpressway.plots.forsale";

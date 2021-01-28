@@ -156,8 +156,8 @@ class Project extends React.Component<Dispatchable<Props>> {
                       </ul>
                     </div>
                     <div className="whatsapp_callingbtn">
-                      <a href="https://wa.me/+918375924100" className="contact_btn"><i className="fa fa-whatsapp"></i>8375924100</a>
-                      <a href="tel:+91-8375924100" className="phn_btn"><i className="fa fa-phone"></i>8375924100</a>
+                      <a href="https://wa.me/+918745891014" className="contact_btn"><i className="fa fa-whatsapp"></i>8745891014</a>
+                      <a href="tel:+91-8745891014" className="phn_btn"><i className="fa fa-phone"></i>8745891014</a>
                     </div>
                   </div>
                   <div className="col-sm-12 col-md-9" style={{ padding: 0 }}>

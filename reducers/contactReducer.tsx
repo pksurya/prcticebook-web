@@ -5,7 +5,7 @@ import {
 
 // define initial state of PROPERTY
 const initialState = {
-  to: 'www.property.sale@gmail.com',
+  to: 'practicebook.in@gmail.com',
   email: '',
   msg: '',
   name: '',

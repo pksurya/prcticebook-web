@@ -25,11 +25,11 @@ class Index extends React.Component<Dispatchable<Props>, MyState> {
   async componentDidMount() {
 
     /*Code to reload to default city url */
-    let { pathname } = Router;
-    if (pathname == glink.href.home) {
-      let url = getRoute(this.props.router, this.props.setting.country, this.props.setting.location, '', '');
-      if (url) Router.push(url);
-    }
+    // let { pathname } = Router;
+    // if (pathname == glink.href.home) {
+    //   let url = getRoute(this.props.router, this.props.setting.country, this.props.setting.location, '', '');
+    //   if (url) Router.push(url);
+    // }
 
 
     if (this.props.website) {
@@ -40,10 +40,10 @@ class Index extends React.Component<Dispatchable<Props>, MyState> {
       this.updateInnerHTMLFromProps();
     }
 
-    await this.props.getProjectGroups(this.props.setting.location);
-    if (this.props.projectGroups) {
-      loadOwl();
-    }
+    // await this.props.getProjectGroups(this.props.setting.location);
+    // if (this.props.projectGroups) {
+    //   loadOwl();
+    // }
   }
   updateInnerHTMLFromProps() {
     if (this.props.website && this.props.website.data) {
@@ -78,10 +78,10 @@ class Index extends React.Component<Dispatchable<Props>, MyState> {
           <>
             <HomeFilter {...this.props} key="1" />
             <Verified key="2" {...this.props} />
-            <About key="3" {...this.props} />
+            {/* <About key="3" {...this.props} /> */}
 
 
-            <section key="4">
+            {/* <section key="4">
               <div className="container">
                 <DistressTable {...this.props} search={true} />
               </div>
@@ -90,25 +90,25 @@ class Index extends React.Component<Dispatchable<Props>, MyState> {
 
             {website && website.data && website.data.banners &&
               <Banner key="6" {...this.props} />
-            }
+            } */}
 
-            {this.showGallery() && <Recommented title={'recommended'} key="7" />}
+            {/* {this.showGallery() && <Recommented title={'recommended'} key="7" />}
             {this.showGallery() && <Recommented title={'commercial'} key="8" />}
             {this.showGallery() && <Recommented title={'prerented'} key="9" />}
-            {this.showGallery() && <Recommented title={'residential'} key="10" />}
+            {this.showGallery() && <Recommented title={'residential'} key="10" />} */}
 
-            {!this.props.propertiesLoading ? <ReslaeProps key="11" {...this.props} /> : null}
+            {/* {!this.props.propertiesLoading ? <ReslaeProps key="11" {...this.props} /> : null} */}
 
-            <WhyUs key="12" />
+            {/* <WhyUs key="12" /> */}
             {/* && this.state.client */}
-            {this.showGallery() && <GalleryList {...this.props} key="13" />}
+            {/* {this.showGallery() && <GalleryList {...this.props} key="13" />} */}
             {this.props.website && <RecentBlog {...this.props} key="14" />}
-            <Testimonial key="15"  {...this.props} />
+            {/* <Testimonial key="15"  {...this.props} /> */}
           </>
         }
-        {this.props.loading && !this.props.website &&
+        {/* {this.props.loading && !this.props.website &&
           <div className="loader-new"></div>
-        }
+        } */}
         <style global jsx>{`
             .breadcrumb{display:none;}
 

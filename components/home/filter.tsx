@@ -212,10 +212,10 @@ class HomeFilter extends React.Component<Dispatchable<Props>, MyState> {
                         <div className="container">
                             <div className="col-md-12">
                                 <div className="banner_text">
-                                    <h1 className="h1"> {header}</h1>
+                                    {/* <h1 className="h1"> {header}</h1> */}
                                     {/* <h1 className="h1"> {(website.propType) ? (setting.propType == 'All') ? '' : setting.propType : ''}  {website.text} for {forsale} in {setting.location}</h1> */}
                                 </div>
-                                <div className="banner_search_bar">
+                                {/* <div className="banner_search_bar">
                                     {website.propType &&
                                         <div className="tabing_details">
                                             {this.state.client &&
@@ -263,7 +263,7 @@ class HomeFilter extends React.Component<Dispatchable<Props>, MyState> {
                                                     </div>
                                                 </div>
                                             </div>
-                                            {/* <span className="d-none d-md-block">&nbsp;</span> */}
+                                           
                                             <div className="form-group half_width responsive_full_width">
                                                 <div id="box">
                                                     {this.state.showPanel &&
@@ -384,7 +384,7 @@ class HomeFilter extends React.Component<Dispatchable<Props>, MyState> {
                                             </button></Link>
                                         </form>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </section>
@@ -490,7 +490,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(HomeFilter)
 // filters: []
 // level: "7"
 // listingDtae: "1582869943878"
-// metaDesc: "Residential Flats 3bhk + servent room Kothi for sale in Noida | Ph - 8375924100"
+// metaDesc: "Residential Flats 3bhk + servent room Kothi for sale in Noida | Ph - 8745891014"
 // metaKey: "3bhk plus servent room in noida,↵3bhk plus servent room in noida extension,↵3bhk flat in noida on emi,↵3bhk flat in noida under 20 lakhs,↵3bhk flat in noida extension,↵3bhk flats in noida low price,↵3bhk flat in noida extension ready to move under 20 lakhs,↵3bhk servent room,↵3bhk flat for sale in noida within 15 lakhs"
 // name: "@in@Noida@All@properties@Residential@Flats@3BHK + servant room"
 // query: "{"cities.name":"Noida","subArea.name":"All","propType.name":"Residential","category.name":"Flats","subCategory.name":"3BHK + servant room"}"

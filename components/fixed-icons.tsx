@@ -17,10 +17,10 @@ const Fsocial: React.SFC<any> = () => {
                     <a href="https://big.property.sale/home-loan-emi-calculator" className="fixed-linkedin" target="_blank"><i className="fa fa-calculator"></i> <span>EMI Calculator</span></a>
                 </div>
                 <div>
-                    <a href="https://wa.me/+918375924100" className="fixed-gplus" target="_blank"><i className="fa fa-whatsapp"></i> <span>WhatsApp Us</span></a>
+                    <a href="https://wa.me/+918745891014" className="fixed-gplus" target="_blank"><i className="fa fa-whatsapp"></i> <span>WhatsApp Us</span></a>
                 </div>
                 <div>
-                    <a href="tel:+91-8375924100" className="fixed-call" target="_blank"><i className="fa fa-phone"></i> <span>Call Us</span></a>
+                    <a href="tel:+91-8745891014" className="fixed-call" target="_blank"><i className="fa fa-phone"></i> <span>Call Us</span></a>
                 </div>
                 <div>
                     <a href="https://www.youtube.com/channel/UCpH2pfwoYCvX-rb6wL4C0jQ" className="fixed-youtube" target="_blank"><i className="fa fa-youtube"></i> <span>YouTube</span></a>
