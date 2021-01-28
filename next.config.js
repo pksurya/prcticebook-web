@@ -31,9 +31,26 @@ module.exports = {
     },
 }
 
+module.exports = {
+    apps : [{
+      name      : 'yarn',
+      script    : 'yarn',
+      args      : 'start',
+      interpreter: '/bin/bash',
+      env: {
+        NODE_ENV: 'development'
+      }
+    }]
+  };
+
+  //argv0=$(echo "$0" SyntaxError: missing ) after argument list
+  //pm2 start yarn --interpreter bash --name api -- start
 
 
-// const withSass = require('@zeit/next-sass')
+
+
+
+  // const withSass = require('@zeit/next-sass')
 // const withCSS = require('@zeit/next-css')
 // module.exports = withCSS({});
 //module.exports = require('@zeit/next-typescript')()
