@@ -31,22 +31,22 @@ module.exports = {
     },
 }
 
-module.exports = {
-    apps : [{
-      name      : 'yarn',
-      script    : 'yarn',
-      args      : 'start',
-      interpreter: '/bin/bash',
-      env: {
-        NODE_ENV: 'development'
-      }
-    }]
-  };
+// module.exports = {
+//     apps : [{
+//       name      : 'yarn',
+//       script    : 'yarn',
+//       args      : 'start',
+//       interpreter: '/bin/bash',
+//       env: {
+//         NODE_ENV: 'development'
+//       }
+//     }]
+//   };
 
   //argv0=$(echo "$0" SyntaxError: missing ) after argument list
   //pm2 start yarn --interpreter bash --name api -- start
 
-
+  //pm2 start yarn /usr/share/yarn/bin/yarn.js --name pbweb -- start --port 4900
 
 
 
