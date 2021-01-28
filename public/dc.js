@@ -1,0 +1,1 @@
+importScripts("https://chatman-api.dritalconnect.com/cm/js/dc-sw.min.js");

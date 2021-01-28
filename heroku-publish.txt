@@ -1,0 +1,13 @@
+git push ....wit heroku procfile
+heroku login
+heroku create dritalestate
+heroku git:remote -a dritalestate
+git push heroku master
+
+heroku config:set PROD_MONGODB=mongodb://pksurya:Prashant23@ds017175.mlab.com:17175/dritalconnect
+heroku config:set MONGO_URI=mongodb://pksurya:Prashant23@ds017175.mlab.com:17175/dritalconnect
+//heroku config:set UPLOAD_PATH=
+heroku config:set SECRET_OR_KEY=dritalconnect
+
+heroku logs --tail
+heroku restart

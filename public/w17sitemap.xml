@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <sitemap>
+      <loc>https://api.property.sale/w17sitemap/default.xml</loc>      
+   </sitemap>
+   <sitemap>
+      <loc>https://api.property.sale/w17sitemap/blog.xml</loc>      
+   </sitemap>
+   <sitemap>
+      <loc>https://api.property.sale/w17sitemap/property.xml</loc>      
+   </sitemap>   
+      <sitemap>
+      <loc>https://api.property.sale/w17sitemap/project.xml</loc>      
+   </sitemap>  
+</sitemapindex>

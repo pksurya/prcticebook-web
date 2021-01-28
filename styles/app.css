@@ -1,0 +1,125 @@
+.city-active{
+    background-color: var(--primary) !important;;
+    color: white !important;
+}
+.area-details{
+    height: 30px;
+}
+.capital{
+    text-transform: capitalize;
+}
+.most-recom{
+    margin: 40px 0px 40px 0px;
+}
+.property-block-two .image,.post-img img{
+    max-height: 250px !important;
+}
+#button{
+    padding-right: 44px !important;
+}
+.discuss{background:#fff;padding:20px;}
+.FL{
+    float: left;
+}
+.clear-both{clear: both;}
+.h1{
+    color:#000;
+    font-size: 1.75rem !important;
+}
+  body::-webkit-scrollbar {
+    width: .3em;
+  }
+
+  body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    outline: 1px solid slategrey;
+  }
+  .error{
+      color: red;
+  }
+  .success{
+      color: green;
+  }
+  .redux-lazy-scroll{overflow: hidden !important;}
+    .capital{
+        text-transform: capitalize;
+    }
+    .uc{
+        text-transform:uppercase ;
+    }
+
+
+    #apartment_datas .thumbnail{ 
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    #apartment_datas .thumbnail img{ 
+        opacity: .8;
+    }
+    #apartment_datas .thumbnail img:hover{ 
+        opacity: 1;
+        zoom: 1;
+    }
+
+    #apartment_datas .thumbnail .centered {
+        position: absolute;
+        bottom: 0;
+        /* left: 133px; */
+        /* transform: translate(-50%, -50%); */
+        background: white;
+        padding: 5px 5px 15px 5px;
+        color: black;
+        font-weight: 500;
+        opacity: .8;
+      }
+    ins{
+        text-decoration: none !important;
+    }
+    .sidebar_listing .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        color: white;
+    }
+    #start_testimonial {
+        padding: 25px 0 0;
+        background: url(/assets/images/background-bg.jpg) fixed !important;
+        background-size: cover;
+    }
+    #four_ser {
+        background: url(/assets/images/background-bg.jpg) fixed !important;
+    }
+    .owl-h3 a{font-weight: 700;}
+    .owl-loc{font-size:11px !important;}
+  
+    .loader-new{
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url('/assets/gif/loader2.gif') 
+                    50% 50% no-repeat rgb(249,249,249);
+      }
+      .sticky{
+          position:-webkit-sticky;
+      }
+      .exclusive {
+        border: 2px solid var(--primary);
+       }
+
+  .modal-header{background: var(--secondary);color: white;}
+  .range .input-range .input-range__track .input-range__slider-container .input-range__slider{ 
+    border: 1px solid var(--secondary) !important;
+    background: var(--secondary) !important;}
+    .input-range__track--active{
+        background:var(--secondary) !important;
+    }
+ /*.starting_table .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-top: 3px solid var(--primary); 
+}*/

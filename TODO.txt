@@ -1,0 +1,255 @@
+- Add projects.xml in sitemaps (gaur.city, gaur.yamuna.city..)
+- city propup to be dynamic show hide from admin.
+- make gaur.yamuna.city without city.
+
+
+
+
+
+Architecture Changes:
+---------------------------------
+plots.forsale
+  - commercial.plots.forsale
+  - residential.plots.forsale
+
+property.sale
+ - commerical.property.sale
+ - residential.property.sale
+
+distress.property.sale
+
+kothi.forsale
+factory.forsale
+
+
+
+TODO:
+-- Add proptype in meta title from utility SEO
+-- contact query should have website filters-- website,page location, and make website dd in admin to filters query
+-- Property.golf
+-- property deatil page image slider - get it beautiful
+-- I will add options in admin to manage these for each websites
+    Banners
+    Testimonails
+    Background image
+    default image
+-- clicking on proptype tab, home page content not gets changed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+updateMsg should be controlled from middleware , success statsu & porpup should be managed form that middleware only.
+
+Login:
+------------------------------------------------------
+- Facebook sign in
+- Facebook signup
+- Google Sign In
+- Google Sign Up
+
+
+Registration:
+------------------------------------------------------
+- Email Valodation
+- after error, again disabled button cause problem for required fields
+
+
+Contact:
+------------------------------------------------------
+
+
+
+Profile:
+------------------------------------------------------
+deactiveate account
+
+
+post free property
+--------------------------------------
+Property id 
+after save show prop lists 
+
+
+
+Bugs:
+----------------------------------------------------
+- loader
+- performace boost on check in proptype filter
+- page ==0 || page==1 not working in sync form city/left filters
+- SSR check for all pages
+- Get-set SEO tags from URL routes
+- performance boost whole website
+- Home filter, autocomplete properties  error
+- Properties filter - Security Deposit - coming for Sale
+- Data not gets blanks, and shows filterd data at first.
+- If no data after filter, existing doesnot gets removed.
+- Verified Homes for You
+- make Common place to get/generate Links href & as
+- Common middleware to handle warning messages & success messages popup/toaster
+- IT&ITES creates issue in api querystring while doing filter
+
+
+- deep filtes/routes based on first page filters is not working properly
+
+
+properties list 
+- filtered data doesnot resets last data, it appends nder the existing data
+- click on imagedoesnot open details page
+
+project list:
+- click on image doesnot open details page
+
+Home page blogs slider:
+-Auther image should be there.
+
+Property detail page:
+-Hide SIMILAR PROPERTIES if no records
+
+My -profile:
+- My admin - go to admin button color -white
+
+
+
+
+
+Properties List
+----------------------------------------------------
+- Search functionality
+- search cross button
+- Remove exclusive from all Properties
+- Contact Details
+- Chnage on Filter with text
+- Loading & No More message at below
+
+
+
+Property Detail:
+-----------------------------------------------------
+- Chart (Price History)
+- Hot Sale
+- Advertisements
+
+
+
+Blog List:
+-----------------------------------------------------
+
+
+
+Blog Detail:
+-----------------------------------------------------
+
+
+
+BreadCrumb: 
+-----------------------------------------------------
+- Functionality
+
+
+
+HEADER:
+-----------------------------------------------------
+- Menu
+
+
+
+Footer:
+-----------------------------------------------------
+- Subscribe
+- Address
+- Social Links
+- Information links
+
+
+
+Home:
+------------------------------------------------------
+- Verified Homes for You
+
+
+
+Projects:
+-----------------------------------------------------
+- show more in filter section not working
+- show meaasge if no records found
+- loader
+
+
+Project Details:
+-----------------------------------------------------
+
+
+
+
+
+
+Location selector Popup/page
+-------------------------------------------------------
+
+
+
+
+Property Easy Add:
+-------------------------------------------------------
+
+
+
+Emi Calc
+WhatsApp
+Call
+Youtube links/videos
+
+
+
+
+
+===================================Notes======================================
+
+css update:
+
+replace all except style.css
+replace all css from style.css except imported
+
+chnage assets/images in style.css
+chnage fonts path in flexslider.css
+check all images & fonts & js in images folder
+component.css - url() images path, url() spinner comments
+style.css #button {padding-right:44px)
+
+
+
+
+
+
+--------------------------BKP-------------------------------------------------
+
+  // static getInitialProps({ reduxStore, req }) {
+  //   const isServer = !!req;
+
+  //   return {}
+  // }
+
+
+
+https://api.property.sale/api/users/add
+Address: "Test"
+City: ""
+Department: ""
+Designation: ""
+Phone: 8745891014
+Role: "web-4"
+State: ""
+email: "abhishek.rot.15890@gmail.com"
+name: "Abhishek"
+password: "test123"
