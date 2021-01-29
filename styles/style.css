@@ -2599,6 +2599,9 @@ ul.list-info li {
     font-size: 14px;
     padding: 2px;
 }
+.blog_details_datas div div table,.blog_details_datas div div img{
+    width:100% !important;
+}
 .comment_data h4 {
     border-bottom: 2px solid #e8e8e8;
     padding-bottom: 10px;

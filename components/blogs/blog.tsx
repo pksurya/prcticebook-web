@@ -56,6 +56,13 @@ const BlogDetail: React.SFC<any> = (obj: any) => {
                     </div>
                 </>
             }
+            <style jsx>
+                {`
+                    .blog_details_datas div div table,.blog_details_datas div div img{
+                        width:100% !important;
+                    }
+                `}
+            </style>
         </div>
     )
 }
