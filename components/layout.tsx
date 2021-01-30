@@ -56,7 +56,7 @@ class Layout extends React.Component<Dispatchable<Props>, MyState> {
         <Safe.script src="https://chatman-api.dritalconnect.com/ichat.js?key=5fd707d112c890288a29ffd4" id="ichatman"></Safe.script>
         <Safe.script src="https://chatman-api.dritalconnect.com/ipush?key=5fd707d112c890288a29ffd4" id="ipush"></Safe.script>
         {/* <Safe.script src="https://progressier.com/client/script.js?id=8bAkl3u7WiXwjRJagIeq"></Safe.script> */}
-        {/* <Safe.script data-ad-client="ca-pub-2354653433404210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></Safe.script> */}
+        <Safe.script data-ad-client="ca-pub-3106891907091599" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></Safe.script>
         <Safe.script>{
           `try{Typekit.load({ async: true });}catch(e){}`
         }
