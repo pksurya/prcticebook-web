@@ -52,9 +52,9 @@ class Layout extends React.Component<Dispatchable<Props>, MyState> {
 
         <Safe.script src="/assets/js/jquery-1.11.1.min.js"></Safe.script>
         <Safe.script src="/assets/js/bootstrap.min.js"></Safe.script>
-        {/* <Safe.script src="/assets/js/crisp.js"></Safe.script> */}
-        <Safe.script src="https://chatman-api.dritalconnect.com/ichat.js?key=5fd707d112c890288a29ffd4" id="ichatman"></Safe.script>
-        <Safe.script src="https://chatman-api.dritalconnect.com/ipush?key=5fd707d112c890288a29ffd4" id="ipush"></Safe.script>
+        {/* <Safe.script src="/assets/js/crisp.js"></Safe.script> <script src="https://chatman-api.dritalconnect.com/ipush?key=60159b134688903d4b8732f4" id="ipush"></script>*/}
+        <Safe.script src="https://chatman-api.dritalconnect.com/ichat.js?key=60159b134688903d4b8732f4" id="ichatman"></Safe.script>
+        <Safe.script src="https://chatman-api.dritalconnect.com/ipush?key=60159b134688903d4b8732f4" id="ipush"></Safe.script>
         {/* <Safe.script src="https://progressier.com/client/script.js?id=8bAkl3u7WiXwjRJagIeq"></Safe.script> */}
         <Safe.script data-ad-client="ca-pub-3106891907091599" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></Safe.script>
         <Safe.script>{

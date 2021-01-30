@@ -97,9 +97,9 @@ class Blogs extends React.Component<Dispatchable<Props>> {
                 </div>
                 {/* <HotProp {...this.props} /> */}
                 <style jsx>
-                    {`
-    .postimg img{min-height:200px;max-height:200px;}
-    `}
+                {`
+                       .postimg img{min-height:200px;max-height:200px;}
+                `}
                 </style>
             </div>
         )
