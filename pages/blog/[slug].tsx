@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { Dispatchable } from '../../lib/with-redux-store';
 import { getBlogDetail } from '../../asyncActions/blogAsyncActions';
-import { BlogDetail, BlogSorted, BreadCrumb, Meta } from '../../components'
+import { BlogDetail, BlogSorted, BreadCrumb, Meta ,SimilarBlogLinks} from '../../components'
 interface Props { getBlogDetail, blogObj, slug, server,domain }
 
 class Blog extends React.Component<Dispatchable<Props>> {
@@ -49,7 +49,7 @@ class Blog extends React.Component<Dispatchable<Props>> {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-sm-8">
-                <BlogDetail {...this} />
+                <BlogDetail {...this} />                       
               </div>
               <div className="col-md-4 col-sm-4">
                 <BlogSorted {...this.props} />

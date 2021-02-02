@@ -7,6 +7,7 @@ export { default as Header } from './header';
 export { default as Header2 } from './header2';
 export { default as BlogDetail } from './blogs/blog';
 export { default as BlogSorted } from './blogs/sidebar';
+export { default as SimilarBlogLinks } from './blogs/similar';
 export { default as HotProp } from './hot-prop';
 export { default as HotSale } from './hot-sale';
 export { default as LatestPost } from './latest-post';

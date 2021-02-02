@@ -5,6 +5,7 @@ import { BlogDetailState } from '../../domain/store';
 import { createMarkup, convertISOStringToMonthDay, viewsFormat } from '../../utility';
 import { constant } from '../../constant';
 import { DiscussionEmbed } from 'disqus-react';
+import { SimilarBlogLinks } from '..';
 //import { Meta } from '../../components';
 
 const mapStateToProps = (state: BlogDetailState) => state
@@ -52,7 +53,8 @@ const BlogDetail: React.SFC<any> = (obj: any) => {
                                     }
                                 }
                             />
-                        </div>
+                        </div>                       
+                        <SimilarBlogLinks {...prop} slugs={prop.similar} />
                     </div>
                 </>
             }
