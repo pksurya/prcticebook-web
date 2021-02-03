@@ -9,12 +9,7 @@ const Footer: React.SFC<any> = (props) => {
     const { setting } = props;
     return (
         <div>
-            <AdSense.Google
-                client='ca-pub-3106891907091599'
-                slot='9218475703'
-                format='auto'
-                responsive='true'
-            />
+
             {props.website && props.website.data &&
                 <>
                     {/* <section id="footer_end">
@@ -31,6 +26,14 @@ const Footer: React.SFC<any> = (props) => {
                     <div className="main_footer">
                         <footer>
                             <div className="container">
+                                <div className="row">
+                                    <AdSense.Google
+                                        client='ca-pub-3106891907091599'
+                                        slot='9218475703'
+                                        format='auto'
+                                        responsive='true'
+                                    />
+                                </div>
                                 <div className="row">
                                     <div className="col-lg-4 col-sm-12">
                                         <div className="footer_about social_about">

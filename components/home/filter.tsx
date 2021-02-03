@@ -210,13 +210,17 @@ class HomeFilter extends React.Component<Dispatchable<Props>, MyState> {
                 {website &&
                     <section id="slider_start" style={{ backgroundImage: `url(${website.filterBanner || "/assets/images/banner-image.jpg"})`, backgroundRepeat: 'no-repeat' }}>
                         {/* backgroundPosition: 'center',backgroundSize: 'cover', */}
-                        <AdSense.Google
-                            client='ca-pub-3106891907091599'
-                            slot='8132624741'
-                            format='auto'
-                            responsive='true'
-                        />
+
                         <div className="container">
+                            <div className="row">
+                                <AdSense.Google
+                                    client='ca-pub-3106891907091599'
+                                    slot='8132624741'
+                                    format='auto'
+                                    responsive='true'
+                                />
+                            </div>
+
                             <div className="col-md-12">
                                 <div className="banner_text">
                                     {/* <h1 className="h1"> {header}</h1> */}
