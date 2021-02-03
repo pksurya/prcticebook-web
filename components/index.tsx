@@ -16,6 +16,7 @@ export { default as Login } from './login';
 export { default as CP } from './cp';
 export { default as Uploader } from './upload';
 export { default as Meta } from './meta';
+export { default as GoogleAds } from './ads';
 export { default as ScrollTop } from './scroll-to-top';
 export { default as Fsocial } from './fixed-icons';
 export { default as RecentBlog } from './blogs/recent-blog';
