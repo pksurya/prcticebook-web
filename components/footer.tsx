@@ -29,7 +29,7 @@ const Footer: React.SFC<any> = (props) => {
                                 <div className="row">
                                     <AdSense.Google
                                         client='ca-pub-3106891907091599'
-                                        slot='9218475703'
+                                        slot='3142212041'
                                         format='auto'
                                         responsive='true'
                                     />

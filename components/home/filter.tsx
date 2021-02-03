@@ -215,7 +215,7 @@ class HomeFilter extends React.Component<Dispatchable<Props>, MyState> {
                             <div className="row">
                                 <AdSense.Google
                                     client='ca-pub-3106891907091599'
-                                    slot='8132624741'
+                                    slot='2471294056'
                                     format='auto'
                                     responsive='true'
                                 />
