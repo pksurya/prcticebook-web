@@ -207,12 +207,12 @@ class HomeFilter extends React.Component<Dispatchable<Props>, MyState> {
 
         return (
             <div>
+
                 {website &&
                     <section id="slider_start" style={{ backgroundImage: `url(${website.filterBanner || "/assets/images/banner-image.jpg"})`, backgroundRepeat: 'no-repeat' }}>
                         {/* backgroundPosition: 'center',backgroundSize: 'cover', */}
-
                         <div className="container">
-                            <div className="row">
+                            <div className="text-center">
                                 <AdSense.Google
                                     client='ca-pub-3106891907091599'
                                     slot='2471294056'
@@ -220,7 +220,8 @@ class HomeFilter extends React.Component<Dispatchable<Props>, MyState> {
                                     responsive='true'
                                 />
                             </div>
-
+                        </div>
+                        <div className="container">
                             <div className="col-md-12">
                                 <div className="banner_text">
                                     {/* <h1 className="h1"> {header}</h1> */}

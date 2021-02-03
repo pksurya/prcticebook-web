@@ -24,16 +24,18 @@ const Footer: React.SFC<any> = (props) => {
                     </section> */}
 
                     <div className="main_footer">
+                        <div className="container">
+                            <div className="text-center">
+                                <AdSense.Google
+                                    client='ca-pub-3106891907091599'
+                                    slot='3142212041'
+                                    format='auto'
+                                    responsive='true'
+                                />
+                            </div>
+                        </div>
                         <footer>
                             <div className="container">
-                                <div className="row">
-                                    <AdSense.Google
-                                        client='ca-pub-3106891907091599'
-                                        slot='3142212041'
-                                        format='auto'
-                                        responsive='true'
-                                    />
-                                </div>
                                 <div className="row">
                                     <div className="col-lg-4 col-sm-12">
                                         <div className="footer_about social_about">
