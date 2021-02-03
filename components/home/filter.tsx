@@ -9,6 +9,7 @@ import Router from 'next/router';
 import $ from 'jquery';
 import Link from 'next/link';
 import { glink } from '../../constant';
+import AdSense from 'react-adsense';
 
 interface Props {
     website, domain, filters, getCategoryList,
@@ -209,6 +210,12 @@ class HomeFilter extends React.Component<Dispatchable<Props>, MyState> {
                 {website &&
                     <section id="slider_start" style={{ backgroundImage: `url(${website.filterBanner || "/assets/images/banner-image.jpg"})`, backgroundRepeat: 'no-repeat' }}>
                         {/* backgroundPosition: 'center',backgroundSize: 'cover', */}
+                        <AdSense.Google
+                            client='ca-pub-3106891907091599'
+                            slot='8132624741'
+                            format='auto'
+                            responsive='true'
+                        />
                         <div className="container">
                             <div className="col-md-12">
                                 <div className="banner_text">

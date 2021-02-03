@@ -2,11 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import { connect } from 'react-redux'
 import { Dispatchable } from '../lib/with-redux-store';
-import { HotProp, BlogSorted, BreadCrumb } from '../components';
+import { HotProp, BlogSorted, BreadCrumb, GoogleAds } from '../components';
 import { getBLOGList, getBlogCount } from '../asyncActions/blogAsyncActions';
 import { getWebsiteData } from '../asyncActions/commonAsyncActions';
 import { convertISOStringToMonthDay, viewsFormat, shorten } from '../utility';
 import { constant } from '../constant';
+import AdSense from 'react-adsense';
 
 interface Props { domain, getBlogCount, getBLOGList, blogObj, blogCount, currentPage, website, getWebsiteData }
 
@@ -73,7 +74,12 @@ class Blogs extends React.Component<Dispatchable<Props>> {
                                         )}
                                     </ul>
                                 </div>
-
+                                <AdSense.Google
+                                    client='ca-pub-3106891907091599'
+                                    slot='8132624741'
+                                    format='auto'
+                                    responsive='true'
+                                />
                                 <div className="pagiWrap">
                                     <div className="row">
                                         <div className="col-md-12 col-sm-12">
@@ -91,13 +97,20 @@ class Blogs extends React.Component<Dispatchable<Props>> {
                             </div>
                             <div className="col-md-4 col-sm-4">
                                 <BlogSorted {...this.props} />
+                                <GoogleAds />
                             </div>
                         </div>
+                        <AdSense.Google
+                            client='ca-pub-3106891907091599'
+                            slot='9218475703'
+                            format='auto'
+                            responsive='true'
+                        />
                     </div>
                 </div>
                 {/* <HotProp {...this.props} /> */}
                 <style jsx>
-                {`
+                    {`
                        .postimg img{min-height:200px;max-height:200px;}
                 `}
                 </style>

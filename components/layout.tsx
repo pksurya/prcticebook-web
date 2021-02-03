@@ -44,7 +44,7 @@ class Layout extends React.Component<Dispatchable<Props>, MyState> {
         <Footer />
         {/* <Fsocial /> */}
         <ToastContainer />
-        <ContactPopup {...this.props} />
+        {/* <ContactPopup {...this.props} /> */}
         <ScrollTop />
         {/* {this.state.showHeader &&
           <LeadForm1 {...this.props} />

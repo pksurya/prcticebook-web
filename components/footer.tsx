@@ -2,13 +2,19 @@ import { connect } from 'react-redux'
 import React from 'react';
 import Link from 'next/link';
 import { glink } from '../constant';
-
+import AdSense from 'react-adsense';
 const mapStateToProps = (state: any) => state
 
 const Footer: React.SFC<any> = (props) => {
     const { setting } = props;
     return (
         <div>
+            <AdSense.Google
+                client='ca-pub-3106891907091599'
+                slot='9218475703'
+                format='auto'
+                responsive='true'
+            />
             {props.website && props.website.data &&
                 <>
                     {/* <section id="footer_end">
