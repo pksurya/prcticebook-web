@@ -2602,6 +2602,17 @@ ul.list-info li {
 .blog_details_datas div div table,.blog_details_datas div div img{
     width:100% !important;
 }
+.blog_details_datas div div{
+    font-size:20px;
+}
+.blog_details_datas div div span{
+    font-weight: bold;
+}
+.blog_details_datas div div b{
+    font-size:30px !important;
+    font-weight: 500px !important;
+    line-height: 70px !important;
+}
 .comment_data h4 {
     border-bottom: 2px solid #e8e8e8;
     padding-bottom: 10px;
